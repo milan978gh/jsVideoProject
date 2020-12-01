@@ -217,12 +217,14 @@ h1 {
   position: absolute;
   bottom: 7%;
   left: 7%;
-  width: 7rem;
+  /* width: 7rem; */
+  width: 5rem;
   height: 2rem;
   display: flex;
-  border-radius: var(--radius);
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
+  border-radius: var(--radius);
   border: none;
   outline: none;
   transition: var(--transition);
@@ -234,7 +236,7 @@ h1 {
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
-.switch {
+/* .switch {
   position: absolute;
   width: 50%;
   height: 100%;
@@ -245,6 +247,14 @@ h1 {
   margin: 0;
   display: block;
   transition: var(--transition);
+} */
+.play-btn {
+  display: inline-block;
+  color: var(--clr-primary-1);
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px;
 }
 .slide .switch {
   left: 50%;

@@ -9,16 +9,23 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js" defer></script>
     <meta name="author" content="Milan WebDev">
-    <title>My Video Project</title>
+    <title>Video Project</title>
 </head>
 
 <body>
+    <!-- preloader -->
+    <div class="preloader">
+        <img src="./img/preloader.gif" alt="">
+    </div>
 
     <header>
-        <video src="./video/video.mp4" class="video-container"></video>
+        <video src="./video/video.mp4" class="video-container" autoplay muted loop></video>
+        <h1>video project</h1>
         <!-- video switch -->
         <button class="switch-btn">
-            <p class="play-btn">play</p>
+            <span>play</span>
+            <span>pause</span>
+            <span class="switch"></span>
         </button>
     </header>
 
