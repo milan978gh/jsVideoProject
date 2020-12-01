@@ -1,0 +1,1 @@
+prepraviti dugme na "play/pause" bez slide akcije,promena innerHTML-a.obrisati autoplay/loop iz video hardcoded opcije,manuelno pokretanje preko play-dugmeta.
