@@ -13,5 +13,4 @@ switchBtn.addEventListener('click', function () {
     playBtn.textContent = 'play';
     switchBtn.classList.remove('play');
   }
-  
 });
